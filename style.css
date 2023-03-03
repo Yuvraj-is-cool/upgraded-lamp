@@ -1,0 +1,15 @@
+h3{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name:cool;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes cool{
+    from{box-shadow:50px 50px 500px #039dfc;}
+    to{box-shadow: 50px 50px 500px rgb(0, 248, 0);}
+}
